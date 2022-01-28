@@ -238,11 +238,11 @@ def teman():
             idne = i['id']
             jenenge = i["name"]
             id.append(idne+'<=>'+jenenge)
-    except KeyError:
-        exit('\n%s [%s!%s] Friendship doesn't exist or in private'%(p,m,p))
+   except KeyError:
+        exit('\n%s [%s!%s] Pertemanan tidak ada atau di private'%(p,m,p))
     if (len(id)) == 0:
-        exit('\n%s [%s!%s] Sorry target friendship is 0'%(p,m,p))
-    else:
+        exit('\n%s [%s!%s] Maaf pertemanan target adalah 0'%(p,m,p))
+    else: 
         print("\n%s [%s•%s] Total id ~~> %s"%(p,b,p,(len(id))))
 
 
